@@ -1,12 +1,15 @@
 # Gitlet
 Gitlet is a project for UC Berkeley's CS61B (Data Structures) course, where I had to build my own version-control system, modeled after the widely used Git system. For a brief description of every command Gitlet is capable of, scroll to the last section, "Gitlet Commands".
 
+
+
 [Here's the full specification.](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/index.html)
 
 ## Context
 This project, unlike most projects in computer science courses, requires its students to fully design the architecture of their software. The only thing we received for this project were requirements of what our final product should be able to accomplish. The blueprint of our software and the data structures used to accomplish this task was left completely up to me.
 
-Here are some preliminary sketches 
+A design document for this project can be found in this repository at gitlet/design.md. Here are some preliminary sketches of my design:
+
 
 ## Gitlet Commands
 The purpose of Gitlet is to have a full scale version-control system which is meant to work on your local computer. 
