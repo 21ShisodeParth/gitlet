@@ -6,7 +6,7 @@ Gitlet is a project for UC Berkeley's CS61B (Data Structures) course, where I ha
 ## Context
 This project, unlike most projects in computer science courses, requires its students to fully design the architecture of their software. The only thing we received for this project were requirements of what our final product should be able to accomplish. The blueprint of our software and the data structures used to accomplish this task was left completely up to me.
 
-A design document for this project can be found in this repository at [gitlet/design.md](https://github.com/21ShisodeParth/gitlet/blob/main/design.md). 
+A design document for this project can be found in this repository at [gitlet/design.md](https://github.com/21ShisodeParth/gitlet/blob/main/design.md). Meanwhile, here's a rough sketch of my code while I was planning my design.
 
 ![dpng](https://user-images.githubusercontent.com/52021668/185258828-88d863d0-986c-406b-a543-1a0d00813a9e.png)
 
