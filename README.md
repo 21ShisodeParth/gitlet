@@ -8,7 +8,8 @@ This project, unlike most projects in computer science courses, requires its stu
 
 A design document for this project can be found in this repository at [gitlet/design.md](https://github.com/21ShisodeParth/gitlet/blob/main/design.md). 
 
-<img width="359" alt="gitlet-design1" src="https://user-images.githubusercontent.com/52021668/185258149-976f646e-005a-403b-954f-b1f1569cedc2.png">
+![dpng](https://user-images.githubusercontent.com/52021668/185258828-88d863d0-986c-406b-a543-1a0d00813a9e.png)
+
 
 
 ## Gitlet Commands
