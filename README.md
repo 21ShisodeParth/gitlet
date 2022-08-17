@@ -38,4 +38,14 @@ This function has 3 different use-cases depending on the number of inputs.
 2. Takes the version of the file as it exists in the commit with the given id, and puts it in the working directory, overwriting the version of the file that's already there if there is one. The new version of the file is not staged.
 3. Takes all files in the commit at the head of the given branch, and puts them in the working directory, overwriting the versions of the files that are already there if they exist.
 
+### branch
+Creates a new branch with the given name, and points it at the current head node. A branch is nothing more than a name for a reference (a SHA-1 identifier) to a commit node. 
 
+### rm-branch
+Deletes the branch with the given name. This only means to delete the pointer associated with the branch
+
+### reset
+Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit.
+
+### merge
+Merges files from the given branch into the current branch. This method requires a great, great deal of explanation, so please check out the [full description here](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/merge.html).
