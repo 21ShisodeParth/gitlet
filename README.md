@@ -18,8 +18,6 @@ The purpose of Gitlet is to have a full scale version-control system which is me
 
 Here are some of the commands (descriptions taken from spec. above):
 
-![pg1](C:\Users\parth\Desktop\cs61a\projects\gitlet-design1.png)
-
 ### init
 Creates a new Gitlet version-control system in the current directory.
 
