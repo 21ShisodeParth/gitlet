@@ -1,9 +1,9 @@
 # Gitlet
-Gitlet was a project for UC Berkeley's CS61B (Data Structures) course, where I had to build my own version-control system, modeled after the widely used Git system.
+Gitlet was a project for UC Berkeley's CS61B (Data Structures) course, where I had to build my own version-control system, modeled after the widely used Git system. For a brief description of every command Gitlet is capable of, scroll to the last section, "Gitlet Commands".
 
 [Here's the full specification.](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/index.html)
 
-## Short Description
+## Gitlet Commands
 The purpose of Gitlet is to have a full scale version-control system which is meant to work on your local computer. 
 
 Here are some of the commands (descriptions taken from spec. above):
@@ -36,4 +36,6 @@ Displays what branches currently exist, and marks the current branch with a \*. 
 This function has 3 different use-cases depending on the number of inputs.
 1. Takes the version of the file as it exists in the head commit, the front of the current branch, and puts it in the working directory, overwriting the version of the file that's already there if there is one. The new version of the file is not staged.
 2. Takes the version of the file as it exists in the commit with the given id, and puts it in the working directory, overwriting the version of the file that's already there if there is one. The new version of the file is not staged.
-3. Takes all files in the commit at the head of the given branch, and puts them in the working directory, overwriting the versions of the files that are already there if they exist. Also, at the end of this command, the given branch will now be considered the current branch (HEAD). Any files that are tracked in the current branch but are not present in the checked-out branch are deleted. The staging area is cleared, unless the checked-out branch is the current branch
+3. Takes all files in the commit at the head of the given branch, and puts them in the working directory, overwriting the versions of the files that are already there if they exist.
+
+
