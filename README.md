@@ -8,7 +8,7 @@ The purpose of Gitlet is to have a full scale version-control system which is me
 
 Here are some of the commands (descriptions taken from spec. above):
 
-###init
+### init
 Creates a new Gitlet version-control system in the current directory.
 
 ###
