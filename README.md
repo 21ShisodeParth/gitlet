@@ -55,4 +55,4 @@ Deletes the branch with the given name. This only means to delete the pointer as
 Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit.
 
 ### merge
-Merges files from the given branch into the current branch. This method requires a great, great deal of explanation, so please check out the [full description here](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/merge.html).
+Merges local files from the given branch into the current branch. This method requires a great, great deal of explanation, so please check out [Git's description here](https://git-scm.com/docs/git-merge).
