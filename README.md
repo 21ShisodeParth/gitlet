@@ -1,7 +1,5 @@
 # Gitlet
-Gitlet is a project for UC Berkeley's CS61B (Data Structures) course, where I had to build my own version-control system, modeled after the widely used Git system. For a brief description of every command Gitlet is capable of, scroll to the last section, "Gitlet Commands".
-
-[Here's the full specification.](https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/index.html)
+Gitlet is a local version-control system, modeled after the widely used Git system. For a brief description of every command Gitlet is capable of, scroll to the last section, "Gitlet Commands".
 
 ## Context
 This project, unlike most projects in computer science courses, requires its students to fully design the architecture of their software. The only thing we received for this project were requirements of what our final product should be able to accomplish. The blueprint of our software and the data structures used to accomplish this task was left completely up to me.
@@ -36,7 +34,7 @@ Starting at the current head commit, displays information about each commit back
 Like log, except displays information about all commits ever made. The order of the commits does not matter.
 
 ### find
-Prints out the ids of all commits that have the given commit message, one per line. If there are multiple such commits, it prints the ids out on separate lines.
+Prints out the IDs of all commits that have the given commit message, one per line. If there are multiple such commits, it prints the IDs out on separate lines.
 
 ### status
 Displays what branches currently exist, and marks the current branch with a \*. Also displays what files have been staged for addition or removal.
